@@ -26,3 +26,76 @@ public class Lab01 {
     }
 
 }
+
+public abstract class Product {
+
+    private int id;
+    private double price;
+    private String name;
+    private static int quantity;
+
+    public Product(int id, double price, String name) {
+        this.id = id;
+        this.price = price;
+        this.name = name;
+        this.quantity++;
+    }
+
+    public void applySaleDiscount(double percentage) {
+        this.price = this.price - ((percentage / 100) * this.price);
+    }
+
+    final public void addToShoppingCart() {
+        System.out.println(this.name + " has been added to the shopping cart.");
+    }
+
+    public static void printTotalQuantity() {
+        System.out.println("Total Quantity: " + quantity);
+    }
+
+    public void getSellableStatus() {
+        System.out.println("This product is sellable");
+    }
+
+    public String toString() {
+        return "Product info:\n+Id: " + this.id + "\t" + "name: " + this.name
+                + "\tPrice: SR" + this.price;
+    }
+
+    public static int getQuantity() {
+        return quantity;
+    }
+    
+    
+}
+
+public class ElectricProduct extends Product {
+
+    private String voltage;
+
+    public ElectricProduct(int id, double price, String name, String voltage) {
+        super(id, price, name);
+        this.voltage = voltage;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\t Voltage: " + this.voltage;
+    }
+}
+
+public class FoodProduct extends Product {
+
+    private LocalDate expirationDate;
+
+    public FoodProduct(int id, double price, String name, LocalDate expirationDate) {
+        super(id, price, name);
+        this.expirationDate = expirationDate;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\t Expiration Date: " + this.expirationDate;
+    }
+}
+
