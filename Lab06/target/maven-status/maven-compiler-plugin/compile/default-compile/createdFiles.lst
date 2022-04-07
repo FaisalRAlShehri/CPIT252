@@ -1,0 +1,10 @@
+com\mycompany\lab06\ConsoleLogger.class
+com\mycompany\lab06\HTMLFormatter.class
+com\mycompany\lab06\CSVFormatter.class
+com\mycompany\lab06\FileLogger.class
+com\mycompany\lab06\BaseLogger.class
+com\mycompany\lab06\main.class
+com\mycompany\lab06\YAMLFormatter.class
+com\mycompany\lab06\DatabaseLogger.class
+com\mycompany\lab06\JSONFormatter.class
+com\mycompany\lab06\FormatDecorator.class
