@@ -1,0 +1,7 @@
+com\mycompany\gumballmachine\NoQuarterState.class
+com\mycompany\gumballmachine\SoldOutState.class
+com\mycompany\gumballmachine\SoldState.class
+com\mycompany\gumballmachine\State.class
+com\mycompany\gumballmachine\Main.class
+com\mycompany\gumballmachine\GumballMachine.class
+com\mycompany\gumballmachine\HasQuarterState.class
