@@ -1,0 +1,6 @@
+com\mycompany\payment\PayPalPayment.class
+com\mycompany\payment\Product.class
+com\mycompany\payment\ShoppingCart.class
+com\mycompany\payment\CreditCardPayment.class
+com\mycompany\payment\Main.class
+com\mycompany\payment\Payment.class
