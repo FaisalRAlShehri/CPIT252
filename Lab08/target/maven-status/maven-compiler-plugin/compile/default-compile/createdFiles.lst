@@ -1,0 +1,6 @@
+edu\kau\fcit\cpit252\observers\FacebookObserver.class
+edu\kau\fcit\cpit252\observers\TwitterObserver.class
+edu\kau\fcit\cpit252\utils\SendTweet.class
+edu\kau\fcit\cpit252\observers\WhatsappObserver.class
+edu\kau\fcit\cpit252\observers\Observer.class
+edu\kau\fcit\cpit252\subjects\Subject.class
